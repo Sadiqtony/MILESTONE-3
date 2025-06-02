@@ -11,7 +11,7 @@ const enrollment = require("./models/enrollment")
 const cors = require("cors")
 app.use(cors())
 const routes = require("./Router")
-const controllers = rquire("./controllers")
+// const somecontrollers = rquire("./controllers")
 
 
 const PORT = process.env.PORT || 7000
